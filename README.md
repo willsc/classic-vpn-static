@@ -1,4 +1,4 @@
-## Classic-vpn-static configuration 
+### Classic-vpn-static configuration 
 
 Add the following roles to the service account
 ```
@@ -25,7 +25,7 @@ module "vpn-module-static" {
 }
 ```
 
-## Dynamic VPN configuration
+### Dynamic VPN configuration
 ```
 resource "google_compute_router" "cr-europe-west-to-prod-vpc" {
   name    = "cr-europe-west2-to-prod-vpc-tunnels"
